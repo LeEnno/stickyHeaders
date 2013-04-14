@@ -21,10 +21,10 @@ If you have markup like this:
 
 <div class="sticky-header-wrap">
 
-	<h2 class="sticky-header">Eine Überschrift</h2>
+	<h2 class="sticky-header">An Epic Heading</h2>
 	<!-- ... -->
 	
-	<h2 class="sticky-header">Noch eine Überschrift</h2>
+	<h2 class="sticky-header">Another Epic Heading</h2>
 	<!-- ... -->
 
 	<!-- more headings and content -->
@@ -41,9 +41,7 @@ initialize the plugin as follows:
 $('.sticky-header-wrap').stickyHeaders();
 ```
 
-You'll have to add some CSS rules for the sticky header element to fit the style of the other headers. Refer to the tips at the bottom of this document for a few valuable tips.
-
-LINK BELOW
+You'll have to add some CSS rules for the sticky header element to fit the style of the other headers. Refer to [the tips at the bottom](#tips-for-css) of this document for a few valuable tips.
 
 Options
 -------
@@ -130,4 +128,4 @@ Tips for CSS
 Demo
 ----
 
-LINK DEMOS
+coming soon
