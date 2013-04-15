@@ -123,9 +123,12 @@ Tips for CSS
 - Use nested elements in case the current markup isn't enough for your purposes. Refer to the `stickyChildren` and `textContainerSelector` options.
 - Make the wrapper have `position:relative`. By saying "the wrapper" I mean the element the Plugin is called on. So when using `$('.sticky-header-wrap').stickyHeaders();` apply relative positioning to `.sticky-header-wrap`.
 - If you change the default class names make sure to include the default stylings. Refer to the `jquery.stickyHeaders.css` file.
+- CSS3 animations can cause some flickering. Consider disabling them for headers.
 - If you have problems, check the demos from the next chapter.
 
 Demo
 ----
 
-coming soon
+1. [Simple Lorem-Ipsum Blog](http://senaeh.de/demo/stickyheaders/simple/ "stickyHeaders – jQuery Plugin für bleibende Überschriften wie z.B. im iOS Adressbuch")
+2. [Daring Fireball with stickyHeaders](http://senaeh.de/demo/stickyheaders/daringfireball/ "Daring Fireball") (you might have heard of [it](http://daringfireball.net/ "Daring Fireball"))
+4. [Peter Kröners Blog with stickyHeaders](http://www.senaeh.de/demo/stickyheaders/peterkroener/ "Weblog • Peter Kröner • Webtechnologie") (a [german blog](http://www.peterkroener.de/weblog/ "Weblog • Peter Kröner • Webtechnologie"))
