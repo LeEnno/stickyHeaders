@@ -80,7 +80,7 @@
 
         // update sticky on scoll
         updateSticky: function() {
-            var scrollPos = window.scrollY,
+            var scrollPos = window.pageYOffset || window.scrollY,
                 i         = 0;
 
             // are we above first header?
