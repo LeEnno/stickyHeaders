@@ -1,3 +1,5 @@
 .sticky-header-hidden {visibility:hidden;}
 .sticky-header-wrap {position:relative;}
-h2.sticky-helper {position:absolute; margin-top:0;} /* `h2` is probably not necessary in your case */
+/* `h2` is probably not necessary in your case */
+/* `transform` is for iOS, see https://stanko.github.io/ios-safari-scoll-position-fixed/ */
+h2.sticky-helper {position:absolute; margin-top:0; transform:translate3d(0,0,0);}
