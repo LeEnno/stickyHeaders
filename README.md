@@ -23,7 +23,7 @@ If you have markup like this:
 
 	<h2 class="sticky-header">An Epic Heading</h2>
 	<!-- ... -->
-	
+
 	<h2 class="sticky-header">Another Epic Heading</h2>
 	<!-- ... -->
 
@@ -56,7 +56,8 @@ var options = {
     stickyClass:           'sticky-helper',
     stickyChildren:        '<span></span>',
     textContainerSelector: 'span',
-    endOfScrollPos:        null
+    endOfScrollPos:        null,
+    stickyStart: 0
 }
 ```
 
@@ -104,6 +105,14 @@ The position to end the scrolling at. You can give a numeric value as well as a 
 
 - Default: `null`
 - Example: `function() { return $('footer').offset().top; }`
+
+
+### stickyStart
+
+The position to start the sticky. Good for situations where you need the plugin to start after an already fixed element, like a navigation bar, for example.
+
+- Default: `0`
+
 
 Misc
 ----
